@@ -1,0 +1,31 @@
+$main_color: #EE3D48;
+$white: white;
+$grey: #939598;
+$black: black;
+
+.card {
+  width: 50%;
+
+  .card__img img{
+    width: 48px;
+    height: 48px;
+
+  }
+  .card__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card__text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #1B1B1B;
+    margin-top: 10px;
+  }
+}
+

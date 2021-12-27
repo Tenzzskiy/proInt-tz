@@ -1,0 +1,57 @@
+.body {
+  margin: 0 auto;
+  padding-top: 16px;
+  width: 375px;
+  height: 1000px;
+}
+.body_container .photo_zones {
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+.body_container .next_card_active {
+  margin: 0 16px;
+  padding-bottom: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body_container .next_card_active button {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  height: 40px;
+  width: 353px;
+  border: 1px solid #EE3D48;
+  background: #CE121E;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.body_container .next_card {
+  margin: 0 16px;
+  padding-bottom: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body_container .next_card button {
+  color: #EE3D48;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  height: 40px;
+  width: 353px;
+  border: 1px solid #EE3D48;
+  background: none;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,144 @@
+.modal {
+  width: 375px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: 0.5s;
+  pointer-events: none;
+  opacity: 0;
+}
+.modal .photoZone_Price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.modal .photoZone_Price button {
+  background: #EE3D48;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  border: 0;
+  width: 78px;
+  height: 26px;
+}
+.modal .photoZone_Price .price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #1B1B1B;
+}
+.modal_content {
+  padding: 16px 16px 24px 24px;
+  background: white;
+  width: 320px;
+  z-index: 2;
+  transition: 0.4s all;
+  transform: scale(0.5);
+}
+.modal_content .result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.modal_content .result .text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+.modal_content .result .number {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+.modal_content .orderInfo {
+  border-bottom: 1px solid #F1F2F2;
+}
+.modal_content .orderInfo .checkbox_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal_content .orderInfo .checkbox_flex .checkbox_order {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 12px 0;
+}
+.modal_content .orderInfo .checkbox_flex .checkbox_price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+}
+.modal_content .orderInfo .photoZoneInfo {
+  margin-bottom: 8px;
+}
+.modal_content .orderInfo .photoZoneInfo .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1B1B1B;
+}
+.modal_content .orderInfo .photoZoneInfo .size {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1B1B1B;
+}
+.modal_content .orderInfo .photoZoneInfo .size span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #939598;
+}
+.modal_active {
+  pointer-events: all;
+  opacity: 1;
+}
+.modal_active_content {
+  padding: 16px 16px 24px 24px;
+  background: white;
+  width: 320px;
+  transform: scale(1);
+}
+.modal .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.modal .header_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+
+/*# sourceMappingURL=Modal.module.css.map */

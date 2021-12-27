@@ -1,0 +1,51 @@
+.priceList {
+  margin: 24px 16px 4px 16px;
+}
+.priceList .PriceItems_overflow {
+  height: 152px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.priceList .PriceItems_overflow::-webkit-scrollbar-track {
+  background: red;
+}
+.priceList .PriceItems_overflow::-webkit-scrollbar-thumb {
+  background: red;
+}
+.priceList__Info {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+.priceList__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1B1B1B;
+  margin: 0;
+}
+.priceList__sizeInfo {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1B1B1B;
+}
+.priceList__sizeInfo span {
+  color: #939598;
+}
+.priceList__extraOptioins_title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #EE3D48;
+  margin-top: 16px;
+  background: #FAFAFA;
+  padding: 4px 16px 2px 3px;
+  display: inline-block;
+  border-bottom: 1px solid #EE3D48;
+}
+
+/*# sourceMappingURL=PriceList.module.css.map */

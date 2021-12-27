@@ -1,0 +1,45 @@
+.advantages {
+  margin-left: 8.5px;
+}
+.advantages .redText {
+  color: #EE3D48;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+.advantages .description {
+  max-width: 328px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 36px;
+  margin-left: 16px;
+}
+.advantages .description a {
+  color: #EE3D48;
+}
+.advantages .title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  margin-left: 16px;
+}
+.advantages .advantegesList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 37px;
+  white-space: pre-line;
+  margin-bottom: 64px;
+}
+
+/*# sourceMappingURL=Advantages.module.css.map */

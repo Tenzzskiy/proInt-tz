@@ -1,0 +1,50 @@
+.img img {
+  width: 2px;
+  height: 1px;
+}
+
+.container {
+  position: relative;
+}
+.container_logo {
+  margin-bottom: 25px;
+  margin-left: 16px;
+}
+.container_movie {
+  width: 328px;
+  height: 200px;
+  margin: 0 24px 65px 16px;
+  border: 3px solid #EE3D48;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.container_movie_youtube {
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 6px;
+  z-index: 1;
+}
+.container_movie_youtube iframe {
+  border-radius: 8px;
+}
+.container_movie_youtube .round {
+  width: 175px;
+  height: 175px;
+  left: -19px;
+  object-fit: cover;
+  position: absolute;
+  bottom: -70px;
+  z-index: -1;
+}
+.container_movie_youtube .surround {
+  width: 82px;
+  height: 44px;
+  position: absolute;
+  bottom: 160px;
+  left: 250px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=Movie.module.css.map */

@@ -1,0 +1,64 @@
+.title {
+  margin: 8px 16px 8px 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: #939598;
+}
+
+.final_Price {
+  padding-bottom: 16px;
+  margin: 4px 16px 24px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+.final_Price div {
+  width: 50%;
+  text-align: left;
+}
+.final_Price button {
+  width: 50%;
+  height: 40px;
+  background: #EE3D48;
+  border: 0;
+  color: white;
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.buttons_wrapper {
+  margin: 0 16px 8px 16px;
+  display: grid;
+  grid-template-columns: 78px 78px 78px 78px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1B1B1B;
+}
+.buttons_wrapper button:hover {
+  color: white;
+  background: #EE3D48;
+}
+.buttons_wrapper button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  background: #F1F2F2;
+  border: 0;
+  height: 26px;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=Time.module.css.map */

@@ -1,0 +1,148 @@
+.modal{
+
+  .photoZone_Price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    button {
+      background: #EE3D48;
+      border-radius: 6px;
+      color: white;
+      outline: none;
+      border: 0;
+      width: 78px;
+      height: 26px;
+    }
+    .price{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: #1B1B1B;
+    }
+  }
+  width: 375px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: 0.5s;
+  pointer-events: none;
+ opacity: 0;
+  &_content{
+  padding:16px 16px 24px 24px ;
+    background: white;
+    width: 320px;
+    z-index: 2;
+
+    transition: 0.4s all;
+    transform: scale(0.5);
+    .result{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+.text{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+      .number{ font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+    .orderInfo{
+
+      border-bottom: 1px solid #F1F2F2;
+      .checkbox_flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .checkbox_order{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 18px;
+          padding: 12px 0;
+        }
+        .checkbox_price{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: right;
+        }
+      }
+      .photoZoneInfo{
+        margin-bottom: 8px;
+        .title{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 20px;
+          color: #1B1B1B;
+        }
+        .size{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+          color: #1B1B1B;
+          span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            color: #939598;
+          }
+        }
+
+      }
+    }
+  }
+  &_active{
+    pointer-events: all;
+    opacity: 1;
+    &_content{
+      padding:16px 16px 24px 24px ;
+      background: white;
+      width: 320px;
+
+
+      transform: scale(1);
+    }
+  }
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  align-items: center;
+  margin-bottom: 16px;
+  &_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+  }
+}
+}

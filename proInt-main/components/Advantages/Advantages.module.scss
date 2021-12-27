@@ -1,0 +1,53 @@
+$main_color: #EE3D48;
+$white: white;
+$grey: #939598;
+$black: black;
+
+.advantages {
+  margin-left: 8.5px;
+
+  .redText {
+    color: $main_color;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+  }
+
+  .description {
+    a {
+      color: $main_color;
+    }
+    max-width: 328px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 36px;
+    margin-left: 16px;
+  }
+
+  .title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 16px;
+  }
+
+  .advantegesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 37px;
+    white-space: pre-line;
+    margin-bottom: 64px;
+  }
+}
+

@@ -1,0 +1,90 @@
+.PriceListItem {
+  height: 60px;
+  padding: 8px;
+  background: #FAFAFA;
+  display: flex;
+  border-bottom: 1px solid #F1F2F2;
+  position: relative;
+}
+.PriceListItem img {
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+}
+.PriceListItem__info {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 8px;
+}
+.PriceListItem__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1B1B1B;
+}
+.PriceListItem__priceInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.PriceListItem__priceInfo .checkbox_label:before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #EE3D48;
+  background: white;
+  border-radius: 2px;
+}
+.PriceListItem__priceInfo .checkbox_label:before:hover {
+  background: #EE3D48;
+}
+.PriceListItem__priceInfo .checkbox_label:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("/checkbox.svg") no-repeat;
+  background-size: 10px 10px;
+  position: absolute;
+  z-index: 2;
+  top: 55px;
+  right: 6px;
+  opacity: 0;
+}
+.PriceListItem__priceInfo .custom_checkbox {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  top: 50px;
+  width: 18px;
+  height: 18px;
+  right: 8px;
+}
+.PriceListItem__priceInfo .custom_checkbox:checked + .checkbox_label:before {
+  background-color: #EE3D48;
+}
+.PriceListItem__priceInfo .custom_checkbox:checked + .checkbox_label:after {
+  opacity: 1;
+}
+.PriceListItem__priceInfo_price {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #EE3D48;
+}
+.PriceListItem__priceInfo input {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #EE3D48;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=PriceListItem.module.css.map */
