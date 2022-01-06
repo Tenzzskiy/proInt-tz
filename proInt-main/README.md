@@ -1,1 +1,1 @@
-![alt text](proInt-main\public\1.PNG)
+![alt text](public/1.PNG)
